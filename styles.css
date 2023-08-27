@@ -85,8 +85,7 @@ header {
 }
 
 .hero-img {
-  width: 32rem;
-  height: 21.3rem;
+  width: 48rem;
   background-color: red;
 }
 
@@ -95,7 +94,7 @@ header {
 }
 
 h1 {
-  font-size: 4.2rem;
+  font-size: 4.4rem;
   line-height: 1.3;
   letter-spacing: 1.2px;
   margin-bottom: 2.4rem;
@@ -119,4 +118,40 @@ h1 {
 .cta:hover,
 .cta:active {
   box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* FEATURES SECTION */
+
+.features-section {
+  padding-bottom: 9.6rem;
+}
+
+.features-heading {
+  font-size: 3.6rem;
+  text-align: center;
+  padding: 3.6rem 0;
+}
+
+.features-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 2.4rem;
+}
+
+.feature-img {
+  display: block;
+  width: 100%;
+  height: 21.3rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2.4rem;
+}
+
+.features-list li {
+  max-width: 32rem;
+}
+
+.features-list p {
+  font-size: 1.6rem;
+  line-height: 1.25;
 }
