@@ -155,3 +155,31 @@ h1 {
   font-size: 1.6rem;
   line-height: 1.25;
 }
+
+/* TESTIMONIAL SECTION */
+
+.container-testimonial {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 9.6rem 0;
+}
+
+.testimonial-section {
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  padding: 2.4rem 4.4rem;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.testimonial-caption {
+  font-size: 2.4rem;
+  text-align: end;
+}
