@@ -208,3 +208,12 @@ blockquote {
 .cta-text-normal {
   font-size: 1.6rem;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 3.2rem;
+}
