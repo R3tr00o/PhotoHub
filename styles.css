@@ -158,7 +158,7 @@ h1 {
 
 /* TESTIMONIAL SECTION */
 
-.container-testimonial {
+.container-thin {
   max-width: 100rem;
   margin: 0 auto;
   padding: 9.6rem 0;
@@ -182,4 +182,29 @@ blockquote {
 .testimonial-caption {
   font-size: 2.4rem;
   text-align: end;
+}
+
+/* CTA SECTION */
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #3882f6;
+  padding: 3.2rem;
+  border-radius: 2px;
+}
+
+.cta-text {
+  color: #fff;
+}
+
+.cta-text-bold {
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 0.8rem;
+}
+
+.cta-text-normal {
+  font-size: 1.6rem;
 }
